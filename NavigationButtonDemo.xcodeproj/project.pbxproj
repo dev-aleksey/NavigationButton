@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FAAFBBFB1C94BF0300FD086F /* NavigationButtonBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFBBFA1C94BF0300FD086F /* NavigationButtonBackground.swift */; };
+		FAAFBBFC1C94BF0300FD086F /* NavigationButtonBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFBBFA1C94BF0300FD086F /* NavigationButtonBackground.swift */; };
+		FAAFBC021C94C2C200FD086F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFBC011C94C2C200FD086F /* Helpers.swift */; };
+		FAAFBC031C94C2C200FD086F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFBC011C94C2C200FD086F /* Helpers.swift */; };
+		FABEDDA41C94BB7D008D0D69 /* NavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABEDDA31C94BB7D008D0D69 /* NavigationButton.swift */; };
+		FABEDDA51C94BB7D008D0D69 /* NavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABEDDA31C94BB7D008D0D69 /* NavigationButton.swift */; };
 		FAFBAB431C94A069003F3133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFBAB421C94A069003F3133 /* AppDelegate.swift */; };
 		FAFBAB451C94A069003F3133 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFBAB441C94A069003F3133 /* ViewController.swift */; };
 		FAFBAB481C94A069003F3133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFBAB461C94A069003F3133 /* Main.storyboard */; };
@@ -26,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FAAFBBFA1C94BF0300FD086F /* NavigationButtonBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationButtonBackground.swift; sourceTree = "<group>"; };
+		FAAFBC011C94C2C200FD086F /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		FABEDDA31C94BB7D008D0D69 /* NavigationButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationButton.swift; sourceTree = "<group>"; };
 		FAFBAB3F1C94A069003F3133 /* NavigationButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFBAB421C94A069003F3133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAFBAB441C94A069003F3133 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +65,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FAAFBBF91C94BEDA00FD086F /* NavigationButtonBackground */ = {
+			isa = PBXGroup;
+			children = (
+				FAAFBBFA1C94BF0300FD086F /* NavigationButtonBackground.swift */,
+			);
+			path = NavigationButtonBackground;
+			sourceTree = "<group>";
+		};
+		FAAFBBFD1C94C25D00FD086F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FAAFBC011C94C2C200FD086F /* Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FABEDDA11C94BB37008D0D69 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FAAFBBFD1C94C25D00FD086F /* Helpers */,
+				FAAFBBF91C94BEDA00FD086F /* NavigationButtonBackground */,
+				FABEDDA21C94BB57008D0D69 /* NavigationButton */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		FABEDDA21C94BB57008D0D69 /* NavigationButton */ = {
+			isa = PBXGroup;
+			children = (
+				FABEDDA31C94BB7D008D0D69 /* NavigationButton.swift */,
+			);
+			path = NavigationButton;
+			sourceTree = "<group>";
+		};
 		FAFBAB361C94A069003F3133 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +120,7 @@
 		FAFBAB411C94A069003F3133 /* NavigationButtonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FABEDDA11C94BB37008D0D69 /* Source */,
 				FAFBAB421C94A069003F3133 /* AppDelegate.swift */,
 				FAFBAB441C94A069003F3133 /* ViewController.swift */,
 				FAFBAB461C94A069003F3133 /* Main.storyboard */,
@@ -199,6 +243,9 @@
 			files = (
 				FAFBAB451C94A069003F3133 /* ViewController.swift in Sources */,
 				FAFBAB431C94A069003F3133 /* AppDelegate.swift in Sources */,
+				FAAFBBFB1C94BF0300FD086F /* NavigationButtonBackground.swift in Sources */,
+				FAAFBC021C94C2C200FD086F /* Helpers.swift in Sources */,
+				FABEDDA41C94BB7D008D0D69 /* NavigationButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +253,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAAFBBFC1C94BF0300FD086F /* NavigationButtonBackground.swift in Sources */,
 				FAFBAB581C94A069003F3133 /* NavigationButtonDemoTests.swift in Sources */,
+				FABEDDA51C94BB7D008D0D69 /* NavigationButton.swift in Sources */,
+				FAAFBC031C94C2C200FD086F /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +376,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NavigationButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AK.NavigationButtonDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -337,6 +388,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NavigationButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AK.NavigationButtonDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -386,6 +438,7 @@
 				FAFBAB5E1C94A069003F3133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAFBAB5F1C94A069003F3133 /* Build configuration list for PBXNativeTarget "NavigationButtonDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +447,7 @@
 				FAFBAB611C94A069003F3133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
